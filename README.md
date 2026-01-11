@@ -21,4 +21,4 @@ are available upon request.
 
 ## 📞Contact if interested:
 - GitHub: @SirongaDeOrora
-- Email: ethansirengo2.it@gmail.com or sirongadeorora@gmail.com
+- Email: sirongadeorora@gmail.com
