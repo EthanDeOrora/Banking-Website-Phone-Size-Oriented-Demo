@@ -1,0 +1,277 @@
+body {
+  margin:0;
+  background-color: #f0f0f0;
+  font-family: montserrat;
+}
+@font-face{
+font-family:montserrat;
+font-style:normal;
+font-weight:400;
+src:url(fonts/MontserratRegular.woff) format("woff2")
+}
+header {
+display: flex;
+justify-content: space-between;
+padding: 10px;
+font-size: x-large;
+box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+color: black;
+background-color: white;
+}
+.logo-main {
+  height: 280px;
+}
+header button {
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+header button:hover {
+  color: white;
+  background-color: black;
+}
+marquee {
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+.containerb {
+  padding: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 20px;
+  align-items: center;
+}
+p {
+  font-size: large;
+}
+.container {
+  padding: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+}
+.container img {
+  width: 400px;
+}
+table, th, td{
+  border-style: solid;
+  font-size: 30px;
+  font-weight: 900;
+  border-collapse: collapse;
+  border-color: #000000;
+  border-radius: 20px;
+  text-align: center;
+  height: 50px;
+  width: 60%  ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.disclaimer {
+  text-align: center;
+}
+
+th:hover {
+  background-color: rgb(192, 192, 192);
+}
+
+td:hover {
+  background-color: rgb(0, 255, 255);
+}
+
+tr:hover {
+  background-color: rgb(167, 167, 167);
+}
+legend {
+  border: 1px solid black;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #ffffff;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+  font-size: 22px;
+  background-color: #9e9e9e;
+  border: none;
+  color: #272d5c;
+  cursor: text;
+  font-family: agency FB;
+  border-radius: 10px;
+  font-weight: 900;
+  padding: 15px 15px 15px 40px;
+}
+
+input[type="date"] {
+  text-decoration: none;
+  font-size: 22px;
+  background-color: #8b8b8b;
+  border: none;
+  color: #353535;
+  cursor: text;
+  font-family:agency FB;
+  border-radius: 10px;
+  font-weight: 900;
+  padding: 15px 15px 15px 15px;
+}
+
+textarea{
+  text-align: left;
+  font-weight: 900;
+  font-size: 22px;
+  background-color: #c2c2c2;
+  color: #272d5c;
+  cursor: text;
+  font-family: agency FB;
+  border-radius: 10px;
+}
+
+input[type="text"]{
+  background-image: url(user.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+input[type="tel"]{
+  background-image: url(phone-call.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  width: 230px;
+}
+
+input[type="email"]{
+  background-image: url(email.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  width: 350px;
+}
+
+input[type="submit"]{
+  border-radius: 5px;
+  font-size: 21px;
+  font-family: agency FB;
+  background-color: #b6b6b6;
+  padding: 10px 20px;
+  border: none;
+}
+
+input[type="submit"]:hover{
+  background-color: #d6f7f7;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #6b6b6b;
+  border-radius: 50px;
+  cursor: pointer;
+  accent-color: #b3b3b3;
+}
+
+.verify {
+  background-color: #c9c9c9;
+  border-radius: 8px;
+  border-style: solid;
+  width: 283px;
+  padding: 10px 10px 20px 10px;
+  margin: 20px 20px;
+  height: 30px;
+  align-content: center;
+  align-items: center;
+  background-image: url(recaptcha.png);
+  background-repeat: no-repeat;
+  background-position: 249px center;
+}
+
+option[value="choose"], option[value="ig"], option[value="facebook"], option[value="youtube"], option[value="tiktok"], option[value="commercial"], option[value="friends"], option[value="google"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #707070;
+  border-radius: 50px;
+  border-style: solid #008ea7;
+  font-family:agency FB;
+  font-size: 20px;
+  color: #141414;
+  cursor: pointer;
+  text-decoration: none;
+  text-decoration-color: none;
+  text-decoration-skip: none;
+  background-color: #acacac;
+}
+
+select {
+  background-color: #ffffff;
+  width: 140px;
+  height: 36px;
+  border-style: solid #383434;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+input::placeholder, textarea::placeholder {
+  font-size: 26px;
+  font-weight: 100;
+  color: #000000;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.side-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ }
+
+@media (max-width: 768px) {
+
+  /* Containers stack vertically */
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Images scale to screen */
+  .container img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Forms must NOT have fixed width */
+  form {
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  fieldset {
+    width: 100%;
+  }
+
+  /* Inputs fit the screen */
+  input, textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Fix email & tel overrides */
+  input[type="email"], input[type="tel"] {
+    width: 100%;
+  }
+
+  /* Table becomes scrollable instead of breaking layout */
+  table {
+    width: 100%;
+    font-size: 18px;
+    display: block;
+    overflow-x: auto;
+  }
+
+  /* Header buttons wrap instead of overflowing */
+  header {
+    flex-wrap: wrap;
+  }
+}
